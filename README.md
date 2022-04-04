@@ -12,7 +12,7 @@ Vue, Vue Router, Firebase, HTML, CSS, JavaScript
 ```
 npm install
 ```
-make firebaseConfig.js
+### make firebaseConfig.js
 ```
 export default {
   your api key
