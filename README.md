@@ -1,5 +1,7 @@
 # todo
 
+## vue todo 리스트 및 통계
+
 ## Project setup
 ```
 npm install
