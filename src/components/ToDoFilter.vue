@@ -17,8 +17,6 @@ export default {
       this.$emit("todoType", type);
     },
   },
-  data() {},
-  mounted() {},
 };
 </script>
 
