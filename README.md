@@ -1,5 +1,5 @@
 # todo
-
+오늘의 할일 및 지난 할일 통계
 ## vue todo 리스트 및 통계
 
 ## Project setup
