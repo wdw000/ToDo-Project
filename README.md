@@ -11,6 +11,11 @@ npm install
 ```
 npm run serve
 ```
+make file firebaseConfig.js
+
+export default {
+  your api key
+};
 
 ### Compiles and minifies for production
 ```
