@@ -6,16 +6,17 @@
 ```
 npm install
 ```
+make firebaseConfig.js
+```
+export default {
+  your api key
+};
+```
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-make file firebaseConfig.js
-
-export default {
-  your api key
-};
 
 ### Compiles and minifies for production
 ```
