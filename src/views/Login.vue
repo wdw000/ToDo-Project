@@ -27,10 +27,8 @@ export default {
     const auth = getAuth();
     getRedirectResult(auth).then((result) => {
       if (GoogleAuthProvider.credentialFromResult(result)) {
-        // const credential = GoogleAuthProvider.credentialFromResult(result);
-        // const token = credential.accessToken;
+        this.$router.replace("main");
       }
-      this.$router.replace("main");
     });
   },
   methods: {

@@ -15,9 +15,6 @@ import { deleteUser, getAuth } from "firebase/auth";
 import { getDatabase, remove, ref } from "firebase/database";
 
 export default {
-  props: {
-    userInfo: { type: Object },
-  },
   data() {
     return {};
   },

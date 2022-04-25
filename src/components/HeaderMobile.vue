@@ -8,10 +8,9 @@
       <button class="logout-click" @click="logout"></button>
     </div>
   </div>
+
   <transition name="slide">
     <extend-menu-mobile
-      :userInfo="this.userInfo"
-      @logout="logout"
       @close="menuClose"
       @getItem="chageItem"
       v-if="extendHeader"
